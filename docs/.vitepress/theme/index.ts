@@ -2,7 +2,7 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import { NotFound } from '../../src/components/index.ts';
+import { NotFound, ImageComponent } from '../../src/components/index.ts';
 import './style.css'
 
 export default {
@@ -14,6 +14,7 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
+    app.component('ImageComponent', ImageComponent);
     // ...
   }
 } satisfies Theme
