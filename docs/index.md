@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Java Dev Insight"
+  name: "Java Dev Insights"
   text: "Notes for Java Dev"
   tagline: My great project tagline
   actions:

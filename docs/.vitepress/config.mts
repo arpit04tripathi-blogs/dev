@@ -2,8 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Java Dev Insight",
+  title: "Java Dev Insights",
   description: "Notes for Java Dev",
+  base: "/dev",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
