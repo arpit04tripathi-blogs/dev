@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Java Dev Insights",
   description: "Notes for Java Dev",
   base: "/dev",
+  srcDir: "./src",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
