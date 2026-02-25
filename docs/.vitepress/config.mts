@@ -32,9 +32,8 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com' },
-    ]
+    socialLinks: [{ icon: 'github', link: 'https://github.com' }],
+		search: { provider: 'local' },
   },
   markdown: {
     config: (md) => {
