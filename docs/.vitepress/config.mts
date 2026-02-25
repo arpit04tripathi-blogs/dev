@@ -7,8 +7,15 @@ export default defineConfig({
   description: "Notes for Java Dev",
   base: "/dev",
   srcDir: "./src",
+  head: [
+		["link", { rel: "icon", href: "icons/favicon.ico" }],
+		["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+		["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: '' }],
+		["link", { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Bungee&display=swap" }],
+	],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: "images/alien-green.png",    
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }

@@ -44,3 +44,13 @@ sequenceDiagram
     A->>B: Hello
     B-->>A: Hi
 ```
+
+<style scoped>
+h1 {
+    font-family: 'Bungee';
+}
+h2 {
+    font-family: 'Bungee';
+    font-synthesis-small-caps: none;
+}
+</style>
