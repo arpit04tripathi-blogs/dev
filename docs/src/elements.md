@@ -10,3 +10,8 @@ Added not found Page to Layout.
 
 <ImageComponent image-path="/webservices/docker/vm-vs-docker.png" />
 
+## Hero image
+
+
+![hero-light](/images/hero-light.png)
+![hero-dark](/images/hero-dark.png)
