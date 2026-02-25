@@ -10,6 +10,7 @@
     "deploy": "npm run docs:build && gh-pages -d docs/.vitepress/dist"
   },
   "dependencies": {
-    "@miletorix/vitepress-youtube-embed": "^1.0.3"
+    "@miletorix/vitepress-youtube-embed": "^1.0.3",
+    "vitepress-mermaid-preview": "^0.1.1"
   }
 }

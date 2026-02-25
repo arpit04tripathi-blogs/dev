@@ -1,4 +1,5 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
+import { vitepressMermaidPreview } from 'vitepress-mermaid-preview';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -27,5 +28,12 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  markdown: {
+    config: (md) => {
+      vitepressMermaidPreview(md, {
+        showToolbar: false, // Global setting: whether to show toolbar by default
+      });
+    },
+  },
 })

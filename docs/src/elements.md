@@ -20,3 +20,27 @@ Added not found Page to Layout.
 
 <YouTubeEmbed video-id="3Lis4w4_bBc" />
 
+## Mermaid
+
+```mermaid
+gantt
+    title A Gantt Diagram
+    dateFormat YYYY-MM-DD
+    section Section
+        A task          :a1, 2014-01-01, 30d
+        Another task    :after a1, 20d
+    section Another
+        Task in Another :2014-01-12, 12d
+        another task    :24d
+```
+
+```mermaid
+---
+showToolbar: true
+---
+sequenceDiagram
+    participant A
+    participant B
+    A->>B: Hello
+    B-->>A: Hi
+```
