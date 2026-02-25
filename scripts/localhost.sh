@@ -41,10 +41,14 @@ case $1 in
     banner "start local dev"
     npm run docs:dev;
     ;;
+  deploy)
+    npm run deploy
+    ;;
   *)
     echo "  git - sync latest from main"
     echo "  start - start local"
     echo "  install - install from package.json"
+    echo "  deploy - deploys to gh pages"
     ;;
 esac
 
