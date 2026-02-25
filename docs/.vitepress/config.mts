@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress';
 import { vitepressMermaidPreview } from 'vitepress-mermaid-preview';
+import TOP_NAVBAR from './theme/navs/navbar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -16,10 +17,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "images/alien-green.png",    
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    nav: TOP_NAVBAR,
 
     sidebar: [
       {

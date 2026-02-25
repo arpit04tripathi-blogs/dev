@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-    console.log('Default Layout slots not-found')
+    console.log('not-found page')
 </script>
 
 <style scoped>
