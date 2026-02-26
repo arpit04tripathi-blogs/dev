@@ -1,8 +1,4 @@
-const PATHS = {
-    HOME: '/',
-    // backend
-    BACKEND_JAVA: '/java.html',
-    BACKEND_SPRING: '/spring.html',
-}
+export const HOME = "/";
 
-export default PATHS;
+export const BACKEND_JAVA = "/java/";
+export const BACKEND_SPRING = "/spring/";

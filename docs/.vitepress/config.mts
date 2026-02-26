@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 import { vitepressMermaidPreview } from 'vitepress-mermaid-preview';
 import TOP_NAVBAR from './theme/navs/navbar';
+import { default as ALL_SIDEBARS } from "./theme/navs/sidebar.ts";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -18,21 +19,11 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: "images/alien-green.png",    
     nav: TOP_NAVBAR,
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'Elements', link: '/elements' },
-        ]
-      }
-    ],
-
+    sidebar: ALL_SIDEBARS,
     socialLinks: [{ icon: 'github', link: 'https://github.com' }],
 		search: { provider: 'local' },
   },
+  cleanUrls: true,
   markdown: {
     config: (md) => {
       vitepressMermaidPreview(md, {
