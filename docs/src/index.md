@@ -6,6 +6,10 @@ hero:
   name: "Java Dev Insights"
   text: "Notes for Java Dev"
   tagline: My great project tagline
+  image:
+    alt: Hero
+    light: /images/hero-light.png
+    dark: /images/hero-dark.png
   actions:
     - theme: brand
       text: Markdown Examples
