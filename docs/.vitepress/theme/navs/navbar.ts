@@ -1,4 +1,4 @@
-import * as PATHS from "./paths";
+import { default as PATHS } from "./paths";
 
 const TOP_NAVBAR = [
     { text: 'Home', link: PATHS.HOME },

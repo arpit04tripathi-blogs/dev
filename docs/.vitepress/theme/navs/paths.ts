@@ -1,4 +1,9 @@
-export const HOME = "/";
+/** Paths for Top Navbar Items (Routes) */
 
-export const BACKEND_JAVA = "/java/";
-export const BACKEND_SPRING = "/spring/";
+const enum PATH_ENUMS {
+    HOME = "/",
+    BACKEND_JAVA = "/java/",
+    BACKEND_SPRING = "/spring/",
+}
+
+export default PATH_ENUMS;
