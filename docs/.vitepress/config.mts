@@ -7,7 +7,7 @@ import { default as ALL_SIDEBARS } from "./theme/navs/sidebar.ts";
 export default defineConfig({
   title: "Java Dev Insights",
   description: "Notes for Java Dev",
-  base: "/dev",
+  base: "/",          // for netlify
   srcDir: "./src",
   head: [
 		["link", { rel: "icon", href: "icons/favicon.ico" }],
