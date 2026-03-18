@@ -1,8 +1,8 @@
 # 📙 Backend Development (Java Ecosystem)
 
-- Language - ☕ [Java](java/)
-- Framework - ☘️ [Spring](spring/)
-- JPA - [Hibernate (ORM)](hibernate/)
+- Language - ☕ [Java](java)
+- Framework - ☘️ [Spring](spring)
+- JPA - [Hibernate (ORM)](hibernate)
 - Testing - [JUnit](junit), [Mockito](mockito), [Cucumber](cucumber)
 - Libraries
   - Mappers - [Object Mapper](mapper), [JSON](json), [XML](xml)
