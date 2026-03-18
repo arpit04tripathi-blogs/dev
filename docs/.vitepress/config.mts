@@ -5,8 +5,8 @@ import { default as ALL_SIDEBARS } from "./theme/navs/sidebar.ts";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Java Dev Insights",
-  description: "Notes for Java Dev",
+  title: "SWE Insights",
+  description: "Notes for Developer",
   // base: "/dev",      // for gh pages
   base: "/",          // for netlify
   srcDir: "./src",
