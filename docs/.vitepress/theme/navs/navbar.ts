@@ -2,34 +2,33 @@ import { default as PATHS } from "./paths";
 
 const TOP_NAVBAR = [
     { text: 'Home', link: PATHS.HOME },
-    { text: 'Examples', link: '/markdown-examples' },
     { 
         text: 'Frontend', 
         items: [
             { 
                 // text: 'Basics 🌐', 
                 items: [
-                    { text: 'Html', link: PATHS.BACKEND_JAVA },
-                    { text: 'CSS', link: PATHS.BACKEND_SPRING },
-                    { text: 'Javascript', link: PATHS.BACKEND_JAVA },
-                    { text: 'Bootstrap', link: PATHS.BACKEND_JAVA },
-                    { text: 'SASS', link: PATHS.BACKEND_JAVA },
-                    { text: 'Jest', link: PATHS.BACKEND_JAVA },
+                    { text: 'Html', link: PATHS.FRONTEND_HTML },
+                    { text: 'CSS', link: PATHS.FRONTEND_CSS },
+                    { text: 'Javascript', link: PATHS.FRONTEND_JS },
+                    { text: 'Bootstrap', link: PATHS.FRONTEND_BOOTSTRAP },
+                    { text: 'SASS', link: PATHS.FRONTEND_SASS },
+                    { text: 'Jest', link: PATHS.FRONTEND_JEST },
                 ]
             },
             { 
                 // text: 'Frameworks', 
                 items: [
-                    { text: 'Vue.js', link: PATHS.BACKEND_JAVA },
-                    { text: 'Vue Test Utils', link: PATHS.BACKEND_JAVA },
-                    { text: 'Angular', link: PATHS.BACKEND_JAVA },
+                    { text: 'Vue.js', link: PATHS.FRONTEND_VUE },
+                    { text: 'Vue Test Utils', link: PATHS.FRONTEND_VTU },
+                    { text: 'Angular', link: PATHS.FRONTEND_ANGULAR },
                 ]
             },
             { 
                 // text: 'Bundler', 
                 items: [
-                    { text: 'vite', link: PATHS.BACKEND_JAVA },
-                    { text: 'webpack', link: PATHS.BACKEND_JAVA },
+                    { text: 'vite', link: PATHS.FRONTEND_VITE },
+                    { text: 'webpack', link: PATHS.FRONTEND_WEBPACK },
                 ]
             },            
         ] 
@@ -190,8 +189,15 @@ const TOP_NAVBAR = [
     {
         text: 'Misc', 
         items: [
-            { text: 'Jekyll', link: PATHS.MISC_JEKYLL },
-            { text: 'Chrome', link: PATHS.MISC_CHROME },
+            {
+                // text: 'Programming Basics',
+                items: [
+                    { text: 'Jekyll', link: PATHS.MISC_JEKYLL },
+                    { text: 'Chrome', link: PATHS.MISC_CHROME },
+                ]
+            },
+            { text: 'MD Examples', link: PATHS.MISC_MARKDOWN_EXAMPLES },
+            { text: 'References', link: PATHS.MISC_REFS },
         ]
     },
 ]

@@ -3,8 +3,6 @@
 const enum PATH_ENUMS {
     // Home and Root Nav Items
     HOME = "/",
-    EXAMPLES = "/examples",
-    REFERENCES = "/refs",
     // Frontend
     FRONTEND_HTML = "/frontend/html",
     FRONTEND_CSS = "/frontend/css",
@@ -73,6 +71,9 @@ const enum PATH_ENUMS {
     // Miscellaneous
     AI_INTRO = "/ai/introduction",
     // Miscellaneous
+    MISC_REFS = "/misc/refs",
+    MISC_API_EXAMPLES = "/misc/api-examples",
+    MISC_MARKDOWN_EXAMPLES = '/misc/markdown-examples',
     MISC_JEKYLL = "/misc/jekyll",
     MISC_CHROME = "/misc/chrome",
 }
