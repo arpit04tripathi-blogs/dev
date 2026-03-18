@@ -1,6 +1,7 @@
 import { default as PATHS } from '../../paths';
 
 const SIDEBAR_MISC_DEFAULT = [
+      { text: 'Overview', link: PATHS.MISC_INDEX },
       {
         text: 'Miscellaneous',
         items: [

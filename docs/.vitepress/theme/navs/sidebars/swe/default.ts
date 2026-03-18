@@ -1,6 +1,7 @@
 import { default as PATHS } from '../../paths';
 
 const SIDEBAR_DEFAULT_SWE = [
+      { text: 'Overview', link: PATHS.SWE_INDEX },
       {
         text: 'Best Practices',
         items: [

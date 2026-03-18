@@ -1,6 +1,7 @@
 import { default as PATHS } from '../../paths';
 
 const SIDEBAR_DEFAULT_DEVOPS = [
+      { text: 'Overview', link: PATHS.DEVOPS_INDEX },
       {
         // text: 'Version Control',
         items: [

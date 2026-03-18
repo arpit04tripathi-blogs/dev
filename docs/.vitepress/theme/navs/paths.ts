@@ -31,6 +31,7 @@ const enum PATH_ENUMS {
     BACKEND_LOGGER = "/backend/logger",
     BACKEND_FEIGN = "/backend/feign",
     // APIs & Microservices
+    API_INDEX = "/api",
     API_HTTP = "/api/http",
     API_CORS = "/api/cors",
     API_REST = "/api/rest",
@@ -42,7 +43,8 @@ const enum PATH_ENUMS {
     API_RABBIT_MQ = "/api/rabbit-mq",
     API_OWASP = "/api/owasp",
     // DevOps & CI/CD Tools
-    DEVOPS_GIT = "/devops/git/",
+    DEVOPS_INDEX = "/devops",
+    DEVOPS_GIT = "/devops/git",
     DEVOPS_GRADLE = "/devops/gradle",
     DEVOPS_JENKINS = "/devops/jenkins",
     DEVOPS_PUPPET = "/devops/puppet",
@@ -54,6 +56,7 @@ const enum PATH_ENUMS {
     DEVOPS_ELK = "/devops/elk",
     DEVOPS_GRAFANA = "/devops/grafana",
     // SWE
+    SWE_INDEX = "/swe",
     SWE_CLEAN_CODE = "/swe/clean-code",
     SWE_DESIGN_PATTERNS = "/swe/design-patterns",
     SWE_CLOUD_COMPUTING = "/swe/cloud-computing",
@@ -62,6 +65,7 @@ const enum PATH_ENUMS {
     SWE_SYSTEM_DESIGN_EXAMPLES = "/swe/system-design-examples",
     SWE_AWS = "/swe/aws",
     // CSE Core
+    CSE_INDEX = "/cse",
     CSE_DS = "/cse/ds",
     CSE_ALGO = "/cse/algo",
     CSE_OS = "/cse/os",
@@ -71,8 +75,10 @@ const enum PATH_ENUMS {
     CSE_CHEATSHEET = "/cse/cheatsheet",
     CSE_PUZZLES = "/cse/puzzles",
     // Miscellaneous
+    AI_INDEX = "/ai",
     AI_INTRO = "/ai/intro",
     // Miscellaneous
+    MISC_INDEX = "/misc",
     MISC_REFS = "/misc/refs",
     MISC_API_EXAMPLES = "/misc/api-examples",
     MISC_MARKDOWN_EXAMPLES = '/misc/markdown-examples',

@@ -1,6 +1,7 @@
 import { default as PATHS } from '../../paths';
 
 const SIDEBAR_DEFAULT_API = [
+      { text: 'Overview', link: PATHS.API_INDEX },
       {
         text: 'Core',
         items: [
