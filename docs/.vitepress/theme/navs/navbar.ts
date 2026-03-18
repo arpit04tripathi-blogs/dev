@@ -160,9 +160,7 @@ const TOP_NAVBAR = [
                 items: [
                     { text: 'AWS', link: PATHS.SWE_AWS },
                 ]
-            },
-            
-            
+            },            
         ] 
     },
     {
