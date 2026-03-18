@@ -1,26 +1,32 @@
 import { default as PATHS } from '../../paths';
 
 const SIDEBAR_DEFAULT_BACKEND = [
+      { text: 'Overview', link: '/backend/' },
       {
         text: 'Basic',
         items: [
-          { text: 'HTML', link: PATHS.FRONTEND_HTML },
-          { text: 'CSS', link: PATHS.FRONTEND_CSS },
-          { text: 'CSS', link: PATHS.FRONTEND_CSS },
+          { text: 'Java', link: PATHS.BACKEND_JAVA },
+          { text: 'Spring', link: PATHS.BACKEND_SPRING },
+          { text: 'Hibernate', link: PATHS.BACKEND_HIBERNATE },
         ]
       },
       {
-        text: 'Libs & Preprocessors',
+        text: 'Testing',
         items: [
-          { text: 'Markdown Examples', link: PATHS.FRONTEND_SASS },
+          { text: 'JUnit', link: PATHS.BACKEND_JUNIT },
+          // { text: 'Mockito', link: PATHS.BACKEND_MOCKITO },
+          { text: 'Cucumber', link: PATHS.BACKEND_CUCUMBER },
         ]
       },
       {
-        text: 'Frameworks',
+        text: 'Libraries',
         items: [
-          { text: 'Vue3', link: PATHS.FRONTEND_VUE },
-          { text: 'Vue Test Utils (ext)', link: 'https://test-utils.vuejs.org/guide/' },
-          { text: 'Angular', link: PATHS.FRONTEND_ANGULAR },
+          { text: 'Object Mapper', link: PATHS.BACKEND_OBJECT_MAPPER },
+          { text: 'Json', link: PATHS.BACKEND_JSON },
+          { text: 'XML', link: PATHS.BACKEND_XML },
+          { text: 'Lombok', link: PATHS.BACKEND_LOMBOK },
+          { text: 'Logger SLF4J', link: PATHS.BACKEND_LOGGER },
+          { text: 'Feign', link: PATHS.BACKEND_FEIGN },
         ]
       },
     ]
