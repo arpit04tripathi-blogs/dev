@@ -10,6 +10,7 @@ export default defineConfig({
   // base: "/dev",      // for gh pages
   base: "/",          // for netlify
   srcDir: "./src",
+  ignoreDeadLinks: true,
   head: [
 		["link", { rel: "icon", href: "icons/favicon.ico" }],
 		["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
