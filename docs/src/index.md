@@ -12,18 +12,21 @@ hero:
     dark: /images/hero-dark.png
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Backend Dev
+      link: /backend
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: SWE Concepts
+      link: /swe
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Frontend
+    details: html, css, js, jest, sass, vue, angular
+    link: /frontend
+  - title: Backend
+    details: Java, Spring, Hibernate, Utils
+    link: /backend
+  - title: API
+    details: Http, REST, CORS, OWASP, webservices, microservices
+    link: /api
 ---
 
