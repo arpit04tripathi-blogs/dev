@@ -69,7 +69,7 @@ const enum PATH_ENUMS {
     CSE_CHEATSHEET = "/cse/cheatsheet",
     CSE_PUZZLES = "/cse/puzzles",
     // Miscellaneous
-    AI_INTRO = "/ai/introduction",
+    AI_INTRO = "/ai/intro",
     // Miscellaneous
     MISC_REFS = "/misc/refs",
     MISC_API_EXAMPLES = "/misc/api-examples",

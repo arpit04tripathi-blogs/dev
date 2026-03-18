@@ -2,10 +2,9 @@ import { default as PATHS } from '../../paths';
 
 const SIDEBAR_DEFAULT_AI = [
       {
-        text: 'Examples',
+        // text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: PATHS.MISC_MARKDOWN_EXAMPLES },
-          { text: 'Runtime API Examples', link: PATHS.MISC_API_EXAMPLES },
+          { text: 'Introduction', link: PATHS.AI_INTRO },
         ]
       },
     ]
