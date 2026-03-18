@@ -19,11 +19,14 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Frontend
+    details: html, css, js, jest, sass, vue, angular
+    link: /frontend
+  - title: Backend
+    details: Java, Spring, Hibernate, Utils
+    link: /backend
+  - title: API
+    details: Http, REST, CORS, OWASP, webservices, microservices
+    link: /api
 ---
 
