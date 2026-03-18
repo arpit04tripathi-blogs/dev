@@ -1,4 +1,4 @@
-const JAVA_SIDEBAR = [
+const SIDEBAR_JAVA = [
       { text: 'Java Home Examples', link: '/markdown-examples' },
       {
         text: 'Java',
@@ -11,4 +11,4 @@ const JAVA_SIDEBAR = [
       }
     ]
 
-export default JAVA_SIDEBAR;
+export default SIDEBAR_JAVA;
