@@ -5,11 +5,12 @@ import { default as ALL_SIDEBARS } from "./theme/navs/sidebar.ts";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Java Dev Insights",
-  description: "Notes for Java Dev",
+  title: "SWE Insights",
+  description: "Notes for Developer",
   // base: "/dev",      // for gh pages
   base: "/",          // for netlify
   srcDir: "./src",
+  ignoreDeadLinks: true,
   head: [
 		["link", { rel: "icon", href: "icons/favicon.ico" }],
 		["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],

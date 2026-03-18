@@ -7,7 +7,7 @@
 - Puppet
 - Nginx
 - Container Orchestration - Kubernetes, Openshift (RedHat), Hasicorp Nomad, Docker Swarm, etc…
-- [16 Best Container Orchestration Tools and Services](https://devopscube.com/docker-container-clustering-tools/){:target=""_blank}
+- [16 Best Container Orchestration Tools and Services](https://devopscube.com/docker-container-clustering-tools){:target=""_blank}
 - **Monitoring & Observability** 📊
   - ELK
   - Grafana and Metrics
